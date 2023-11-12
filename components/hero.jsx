@@ -59,7 +59,7 @@ const Hero = () => {
                 initial="hidden"
                 animate="visible"
                 transition={transition}
-                className="bg-[url('../app/bg.svg')] z-0 pointer-events-none bg-no-repeat  mx-auto  bg-center bg-cover pt-[80%]"
+                className="bg-[url('../app/bg.svg')] max-h-[663px] z-0 pointer-events-none bg-no-repeat  mx-auto  bg-center bg-cover pt-[80%]"
             ></motion.div>
         </div>
     );
