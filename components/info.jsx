@@ -35,7 +35,7 @@ const Info = () => {
     return (
         <section
             id="info"
-            className="w-full py-[100px] relative px-[80px] min-h-content flex flex-col lg:flex-row items-start flex-nowrap gap-5"
+            className="w-full py-[50px] px-[40px] md:py-[100px] relative md:px-[80px] min-h-content flex flex-col lg:flex-row items-start flex-nowrap gap-5"
         >
             <motion.div
                 variants={contentVariant}
@@ -69,7 +69,7 @@ const Info = () => {
                 whileInView={"whileInView"}
                 className="overflow-auto flex gap-10 flex-col flex-nowrap justify-center"
             >
-                <Card className="max-h-[245px] bg-secondary-light/20 p-3 w-full shadow-sm ">
+                <Card className="md:max-h-[245px] bg-secondary-light/20 p-3 w-full shadow-sm ">
                     <CardHeader className="flex flex-col items-start gap-3">
                         <div className="w-8 h-8 object-contain">
                             <svg
@@ -105,7 +105,7 @@ const Info = () => {
                             </svg>
                         </div>
 
-                        <h3 className="text-black font-medium text-2xl">
+                        <h3 className="text-black font-medium text-xl md:text-2xl">
                             It&apos;s Cost-Effective
                         </h3>
                     </CardHeader>
@@ -118,7 +118,7 @@ const Info = () => {
                     </CardBody>
                 </Card>
 
-                <Card className="max-h-[245px] bg-secondary-light/20 p-3 w-full shadow-sm ">
+                <Card className="md:max-h-[245px] bg-secondary-light/20 p-3 w-full shadow-sm ">
                     <CardHeader className="flex flex-col items-start gap-3">
                         <div className="w-8 h-8 object-contain">
                             <svg
@@ -150,7 +150,9 @@ const Info = () => {
                             </svg>
                         </div>
 
-                        <h3 className="text-black font-medium text-2xl">It&apos;s User Friendly</h3>
+                        <h3 className="text-black font-medium text-xl md:text-2xl">
+                            It&apos;s User Friendly
+                        </h3>
                     </CardHeader>
                     <CardBody>
                         <p className="text-black/60 ">
@@ -161,7 +163,7 @@ const Info = () => {
                     </CardBody>
                 </Card>
 
-                <Card className="max-h-[245px] bg-secondary-light/20 p-3 w-full shadow-sm ">
+                <Card className="md:max-h-[245px] bg-secondary-light/20 p-3 w-full shadow-sm ">
                     <CardHeader className="flex flex-col items-start gap-3">
                         <div className="w-8 h-8 object-contain">
                             <svg
@@ -189,7 +191,9 @@ const Info = () => {
                             </svg>
                         </div>
 
-                        <h3 className="text-black font-medium text-2xl">It Saves Time</h3>
+                        <h3 className="text-black font-medium text-xl md:text-2xl">
+                            It Saves Time
+                        </h3>
                     </CardHeader>
                     <CardBody>
                         <p className="text-black/60 ">
